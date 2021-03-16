@@ -7,4 +7,4 @@ In the project directory, you can run:
 * git clone https://github.com/ummuhankeles/react-movie-search-app.git
 * cd react-movie-search-app
 * npm install
-* npm start# react-movie-search-app
+* npm start
