@@ -39,7 +39,7 @@ function App() {
       <div className="row"> 
           { 
             movieInfo.filter(
-              (item) => item.title.toLowerCase().includes(value)
+              (item) => item.title.toLowerCase().includes(value.toLowerCase())
               )
               .map((item, index)=>(
                 <FilmList key={index} name={item.title} overview={item.overview}
